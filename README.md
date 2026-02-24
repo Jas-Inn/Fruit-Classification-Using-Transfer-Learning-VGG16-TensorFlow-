@@ -19,8 +19,7 @@ fruit-classification-vgg16/
 ├── fruit_classification_vgg16.ipynb   # Main notebook — full pipeline
 ├── requirements.txt                   # Python dependencies
 ├── .gitignore                         # Ignores data, model weights, etc.
-├── data/                              # Dataset directory (not tracked in Git)
-│   └── README.md                      # Instructions for downloading the dataset
+├── README.md                          # Instructions 
 └── outputs/                           # Saved plots and model artifacts (optional)
 ```
 
