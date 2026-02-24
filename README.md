@@ -28,7 +28,7 @@ fruit-classification-vgg16/
 
 # Dataset
 
-**Fruits-360 (Original Size)** — a publicly available benchmark dataset of fruit images.
+This project uses the **Fruits-360 (Original Size)** dataset — a publicly available benchmark dataset of fruit images.
 
 - **24 fruit classes** (including apple varieties, pear, cucumber, and more)
 - **~12,500 images** split across Training, Validation, and Test sets:
@@ -39,6 +39,35 @@ fruit-classification-vgg16/
 
 The dataset is downloaded automatically by the notebook. See [`data/README.md`](data/README.md) for manual download instructions.
 
+## Manual Download
+
+If automatic download fails, you can download the dataset manually:
+
+1. Go to the [Fruits-360 dataset on Kaggle](https://www.kaggle.com/datasets/moltean/fruits)
+2. Download and extract it into the project root
+3. Ensure the directory structure looks like this:
+
+```
+fruits-360-original-size/
+└── fruits-360-original-size/
+    ├── Training/
+    │   ├── apple_braeburn_1/
+    │   ├── pear_1/
+    │   ├── cucumber_3/
+    │   └── ... (24 class folders)
+    ├── Validation/
+    │   └── ... (same 24 class folders)
+    └── Test/
+        └── ... (same 24 class folders)
+```
+
+## Dataset Stats
+
+| Split | Images | Classes |
+|---|---|---|
+| Training | 6,231 | 24 |
+| Validation | 3,114 | 24 |
+| Test | 3,110 | 24 |
 ---
 
 # Model Architecture
