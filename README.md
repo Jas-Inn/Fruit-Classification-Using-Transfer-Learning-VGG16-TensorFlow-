@@ -1,5 +1,5 @@
 # Fruit-Classification-Using-Transfer-Learning-VGG16-TensorFlow-
-A deep learning image classifier that identifies 24 different fruit categories using transfer learning with the pre-trained VGG16 model. The project covers the full ML pipeline — from data loading and augmentation, to model training, fine-tuning, evaluation, and visual prediction.
+A deep learning image classifier that identifies different fruit categories using transfer learning with the pre-trained VGG16 model. The project covers the full ML pipeline — from data loading and augmentation, to model training, fine-tuning, evaluation, and visual prediction.
 
 # Project Overview
 Training image classifiers from scratch requires massive datasets and compute. Transfer learning sidesteps this by reusing a model already trained on millions of images (ImageNet) and adapting it to a new task with far less data and time.
